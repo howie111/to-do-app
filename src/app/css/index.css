@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+  }
+  
+  .done {
+    text-decoration: line-through;
+    color: grey;
+  }
+  li{
+    list-style: none;
+    padding: 15px;
+    font-size: 1.5em;
+    background-color:#efeddc;
+    margin: 2%;
+  }
+  ul{
+    height: 500px;
+    overflow: auto;
+  }
+  .selectedbox{
+    height: 2em;
+    float: right
+  }
+  .clearbtn{
+    float: left;
+  }
+  .container_btn_selectbox{
+    display: inline-block;
+    width:100%;
+  }
+  
+  
+  
